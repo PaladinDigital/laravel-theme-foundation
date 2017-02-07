@@ -1,6 +1,11 @@
 {
   "name": "paladindigital/laravel-foundation",
+  "description": "A laravel theme with Foundation 6 loaded from CDN.",
+  "keywords": [
+    "laravel", "foundation", "laravel-community-theme"
+  ],
   "type": "laravel-community-theme",
+  "license": "MIT",
   "require": {
     "paladindigital/laravel-theme-installer": "dev-master",
     "paladindigital/laravel-theme-loader": "dev-master"
