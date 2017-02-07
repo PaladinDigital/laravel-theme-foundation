@@ -17,7 +17,13 @@ If you dont already have the service provider registered in your config/app.php 
         ...
         PaladinDigital\LaravelThemes\ServiceProvider::class,
     ]
-    
+
+### Laravel Support (Task Force Dev package)
+
+If you install the [taskforcedev/laravel-support](https://github.com/taskforcedev/laravel-support) package this provides the ability to set a sitewide master layout which will be used in all views.
+
+This saves you having to set the longform view name in all page templates.  Alternatively you could create your own shared data object.
+
 ## Theme Usage
 
 ### Layouts
