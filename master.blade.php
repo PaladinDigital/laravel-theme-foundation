@@ -21,7 +21,7 @@ $theme = 'themes::paladindigital.laravel-foundation';
 @yield('sidebar')
 @yield('widgets')
 </aside>
-@include($theme . '_footer')
+@include($theme . '._footer')
     <!-- Foundation 6.2.4 JS -->
     <script crossorigin="anonymous" integrity="sha256-6ikyM5zgWkLwRwc64Pn/i5ioDIvcxCtb+EXE8Zm0qK8=" src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
 @yield('scripts')
