@@ -11,7 +11,7 @@ $theme = 'themes::paladindigital.laravel-foundation';
     <!-- Foundation 6.2.4 CSS -->
     <link rel="stylesheet" crossorigin="anonymous" integrity="sha256-NqI559iHqiWe5VxDi9mXE8i83ghn8Ru8BINyiPN7lDg=" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css">
 @yield('head')
-@yield('meta')
+    @include($theme . '._meta')
 @yield('styles')
 </head>
 <body>
